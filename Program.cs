@@ -7,7 +7,7 @@ int N = int.Parse(Console.ReadLine());
 
 int a = 0;
 
-while(a < N){
+while(a <= N){
     if (a % 2 == 0 & a != 0){
         Console.Write($"{a}, ");
     }
